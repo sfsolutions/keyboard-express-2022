@@ -3,8 +3,8 @@
 {{ $bg_img_opacity := mul $bg_img_opacity_pct 0.01 }}
 <section class="hero bg-color" data-id="{{ $section.section_id }}">
     {{ if $section.background_image }}
-    <div class="hero__bg-img" style="background-image: url('{{ $section.background_image | relURL }}'); opacity: {{ $bg_img_opacity }};"></div>
-    {{ end }}
+    <div class="hero__bg-img" style="background-
+image: url('{{ $section.background_image | relURL }}'); opacity: {{ $bg_img_opacity }};"></div>    {{ end }}
     <div class="hero__title">{{ partial "markdownify-block" $section.content }}</div>
     <div class="hero__links link-group">
       {{ range $action := $section.actions }}
