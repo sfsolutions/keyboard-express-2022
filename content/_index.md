@@ -16,6 +16,7 @@ sections:
         url: /store
         arrow: true
         style: primary
+    background_image: images/Beijing Opera - 3-95c04be8.jpg
   - type: featured_products_section
     section_id: best_sellers_section
     title: Best sellers
